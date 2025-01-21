@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .contact-content {
+      padding: 15px;
+    }
+    h2 {
+      font-size: 2em;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 8px 16px;
+    }
+  }
+  

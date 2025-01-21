@@ -1,0 +1,15 @@
+<!-- home.component.html -->
+<div class="home-container" id="home">
+  <div class="slideshow-container">
+    <div class="mySlides fade" *ngFor="let slide of slides; let i = index" [ngStyle]="{'display': i === currentSlide ? 'block' : 'none'}">
+      <img [src]="slide" class="background-slide">
+    </div>
+  </div>
+  <div class="centered-text">
+    <h2>RAJAT</h2>
+    
+    <span>Developers and Builders</span>
+    <p>Welcome</p>
+    <p>We provide the best construction services.</p>
+  </div>
+</div>

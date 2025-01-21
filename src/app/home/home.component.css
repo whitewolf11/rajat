@@ -1,0 +1,47 @@
+.home-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #FFD700; /* Bright yellow color for the text */
+  font-family: 'Times New Roman', Times, serif;
+  overflow: hidden;
+}
+
+.slideshow-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure slideshow is in the background */
+  overflow: hidden;
+}
+
+.background-slide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire background */
+}
+
+.centered-text {
+  z-index: 1;
+  padding: 20px;
+}
+
+.centered-text h2 {
+  font-size: 5em; /* Large size for RAJAT */
+  margin: 0 0 20px 0;
+}
+
+.centered-text span {
+  font-size: 2.5em; /* Adjusted size for Developers and Builders */
+  font-weight: bold;
+}
+
+.centered-text p {
+  font-size: 1.5em;
+  margin: 10px 0;
+}

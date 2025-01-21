@@ -1,0 +1,84 @@
+/* Contact.css */
+
+#contact {
+    background-image: url('https://example.com/path-to-your-background-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: rgb(250, 250, 250);
+    padding: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Ensure you have this font included */
+  }
+  
+  .contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #FFD700; /* Yellow color */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #FFC107; /* Slightly darker yellow on hover */
+  }
+  
+  .contact-info {
+    margin-top: 30px;
+  }
+  
+  .contact-info p {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .contact-info a:hover {
+    color: #FFD700; /* Yellow color on hover */
+  }
+  
+  .whatsapp-logo {
+    height: 24px; /* Adjust size as needed */
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  

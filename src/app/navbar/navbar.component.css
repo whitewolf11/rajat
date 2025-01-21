@@ -1,0 +1,32 @@
+/* navbar.component.css */
+.navbar {
+    background-color: black;
+    padding: 10px;
+    border-bottom: 2px solid gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    height: 200px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .nav-links li a:hover {
+    color: white;
+  }
+  

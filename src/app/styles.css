@@ -1,0 +1,14 @@
+/* styles.css */
+body {
+  background-color: black;
+  color: gold;
+  font-family: 'Times New Roman', serif;
+}
+
+a {
+  color: gold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: gold;
+}

@@ -1,0 +1,13 @@
+<!-- projects.component.html -->
+<div class="slider-container">
+  <div class="slider">
+    <div class="slides">
+      <div *ngFor="let project of projects; let i = index" class="slide" [ngClass]="{'active': i === currentIndex}">
+        <img [src]="project.project1" class="project-image" alt="Project Image">
+        <p>{{ project.details }}</p>
+      </div>
+    </div>
+    <button class="prev" (click)="prevSlide()">&#10094;</button>
+    <button class="next" (click)="nextSlide()">&#10095;</button>
+  </div>
+</div>
