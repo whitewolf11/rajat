@@ -41,5 +41,16 @@
   "karma-jasmine-html-reporter": "~2.0.0",
   "typescript": "~4.7.2"
 }
+  "scripts": {
+  "ng": "ng",
+  "start": "ng serve",
+  "build": "ng build",
+  "watch": "ng build --watch --configuration development",
+  "test": "ng test",
+  "predeploy": "ng build --base-href 'https://whitewolf11.github.io/whitewolf11/'",
+  "deploy": "gh-pages -d dist/rajat",
+  "postinstall": "npm install --legacy-peer-deps"
+}
+
 }
 
